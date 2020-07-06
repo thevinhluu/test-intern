@@ -408,6 +408,7 @@ Breadcrumb
 .breadcrumb-item {
 	text-align: center;
 	width: 100%;
+	position: relative;
 }
 
 .breadcrumb-item h2 {
@@ -593,12 +594,10 @@ Events
 		flex: 0 0 50%;
 		max-width: 50%;
 	}
-}
 
-@media only screen and (max-width: 767px) and (min-width: 450px) {
 	.event-content {
-		padding: 1.5rem;
-		margin: -5rem 1rem 0 1rem;
+		margin-right: 2rem;
+		padding: 2rem;
 	}
 }
 
@@ -612,6 +611,13 @@ Events
 		width: 4rem;
 		height: 4rem;
 		line-height: 4rem;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 450px) {
+	.event-content {
+		padding: 1.5rem;
+		margin: -5rem 1rem 0 1rem;
 	}
 }
 
